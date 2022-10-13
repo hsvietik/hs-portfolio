@@ -1,0 +1,165 @@
+:root {
+  --color-pink: #fce3e6;
+  --color-pink-accent: #ee627d;
+  --color-light-blue: #bee8f4;
+  --color-blue: #697cb4;
+  --color-blue-accent: #374890;
+  --color-white: #ffffff;
+  --color-grey: #f6f6f6;
+  --color-dark-grey: #e0dcdd;
+  --color-black: #1b1e25;
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+body {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  height: 100%;
+  margin: 0px;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  font-style: inherit;
+  color: inherit;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: var(--color-grey);
+}
+
+.header-logo {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--color-pink-accent);
+}
+.header.list {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+}
+.header-item {
+  margin: 0px 0px 0px 20px;
+}
+.header-link {
+  padding: 10px 0px;
+}
+.page-section {
+  padding: 30px;
+}
+.page-hero {
+  padding-top: 100px;
+}
+.hero-container {
+  display: block;
+}
+.hero-img {
+  display: block;
+}
+.description-wrap {
+  margin: 0px auto;
+  max-width: 400px;
+}
+.hero-title {
+  font-size: 36px;
+  font-weight: 700px;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 24px;
+  font-weight: 700px;
+  margin-bottom: 15px;
+}
+.hero-text,
+.about-text {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 2;
+}
+.accent-pink {
+  background-color: var(--color-pink);
+}
+.accent-light-blue {
+  background-color: var(--color-light-blue);
+}
+.accent-blue {
+  background-color: var(--color-blue);
+}
+.page-about {
+  background-color: var(--color-pink);
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text {
+  margin-right: 50px;
+  width: 50%;
+}
+.about-img {
+  display: block;
+  border: 20px solid var(--color-blue);
+  border-radius: 20px;
+}
+.social-item {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-pink-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+@media (min-width: 767px) {
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  .header-item {
+    padding: 10px 0;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+  }
+}
