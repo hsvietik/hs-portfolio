@@ -187,6 +187,7 @@ p {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
+  height: 80vh;
 }
 /* .portfolio-list:nth-child(2n) {
   flex-direction: row-reverse;
@@ -224,6 +225,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+.contact-text,
 .mail,
 .phone {
   margin-right: 20px;
@@ -231,6 +233,13 @@ p {
 }
 .contact-icon {
   margin-right: 10px;
+}
+.footer {
+  background-color: var(--color-dark-grey);
+  font-size: 13px;
+}
+.footer-text {
+  text-align: center;
 }
 
 @media (min-width: 767px) {
