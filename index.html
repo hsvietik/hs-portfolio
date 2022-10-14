@@ -15,9 +15,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="header light-grey">
         <div class="header-container container">
-          <a href="#" class="header-logo link">
+          <a href="#hero" class="header-logo link">
             <p>Hanna Svietik</p>
           </a>
           <div class="header-menu menu">
@@ -27,38 +27,44 @@
             <nav class="header-menu">
               <ul class="header-list list">
                 <li class="header-item">
-                  <a data-goto=".page-about" class="header-link link" href="#"
+                  <a
+                    data-goto=".page-hero"
+                    class="header-link link"
+                    href="#hero"
+                    >Home</a
+                  >
+                </li>
+                <li class="header-item">
+                  <a
+                    data-goto=".page-about"
+                    class="header-link link"
+                    href="#about"
                     >About</a
                   >
                 </li>
                 <li class="header-item">
                   <a
-                    data-goto=".page-experience"
+                    data-goto=".page-skills"
                     class="header-link link"
-                    href="#"
+                    href="#skills"
                     >Skills</a
                   >
                 </li>
                 <li class="header-item">
                   <a
-                    data-goto=".page-portfolio"
+                    data-goto=".page-about"
                     class="header-link link"
-                    href="#"
-                    >Experience</a
+                    href="#portfolio"
+                    >Portfolio</a
                   >
                 </li>
                 <li class="header-item">
-                  <a data-goto=".page-about" class="header-link link" href="#"
-                    >Portfolio</a
-                  >
+                  <a class="header-link link" href="#contacts">Contacts</a>
                 </li>
                 <li class="header-item">
                   <a data-goto=".page-about" class="header-link link" href="#"
                     >CV</a
                   >
-                </li>
-                <li class="header-item">
-                  <a class="header-link link" href="#">Contacts</a>
                 </li>
               </ul>
             </nav>
@@ -66,15 +72,17 @@
         </div>
       </header>
       <main class="page">
-        <section class="page-section page-hero">
+        <section class="page-section page-hero" id="hero">
           <div class="hero-container container">
             <div class="description-wrap">
               <h1 class="hero-title">Hanna Svietik</h1>
-              <h2 class="hero-subtitle subtitle">Full Stack Developer</h2>
+              <h2 class="hero-subtitle subtitle">
+                Junior Full Stack Developer
+              </h2>
               <p class="hero-text">
-                I <span class="accent-light-blue"> create </span> and code
-                beautifully <span class="accent-blue"> simple </span> <br />
-                things, and I <span class="accent-pink"> love </span> what I do.
+                I <span class="accent light-blue"> create </span> and code
+                beautifully <span class="accent blue"> simple </span> things,
+                and I <span class="accent light-pink"> love </span> what I do.
               </p>
             </div>
             <img
@@ -85,117 +93,281 @@
             />
           </div>
         </section>
-        <section class="page-section page-about">
+        <section class="page-section page-about light-pink" id="about">
           <div class="about-container container">
             <div class="about-wrap">
-            <h2 class="subtitle">About me</h2>
-            <p class="about-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptas placeat quas, sint dolorum impedit ut nihil odio natus
-              suscipit deleniti provident, veritatis, amet commodi animi eveniet
-              at. Laboriosam, laborum. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit.
-            </p>
+              <h2 class="subtitle">About me</h2>
+              <p class="about-text">
+                I'm <span class="blue accent">starting</span> my software
+                developing career after graduation from The Developer Academy's
+                Software Development Bootcamp. I want to use all my
+                <span class="pink accent">experience</span> of working with
+                large pieces of information, with deadlines, of making decisions
+                that I received as the head of HR department in coding. I have a
+                great desire to
+                <span class="light-blue accent">improve</span> my programming
+                skills to create useful applications and websites.
+              </p>
             </div>
             <img
-                class="about-img"
-                src="./images/hsphoto.jpg"
-                alt="Hanna Svietik photo"
-                width="300px"
-              />
-             
+              class="about-img"
+              src="./images/hsphoto.jpg"
+              alt="Hanna Svietik photo"
+              width="300px"
+            />
+          </div>
         </section>
-        <section class="page-section page-experience">
-          <div class="container">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptas placeat quas, sint dolorum impedit ut nihil odio natus
-              suscipit deleniti provident, veritatis, amet commodi animi eveniet
-              at. Laboriosam, laborum. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Eligendi voluptas placeat quas, sint dolorum
-              impedit ut nihil odio natus suscipit deleniti provident,
-              veritatis, amet commodi animi eveniet at. Laboriosam, laborum.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptas placeat quas, sint dolorum impedit ut nihil odio natus
-              suscipit deleniti provident, veritatis, amet commodi animi eveniet
-              at.
+        <section class="page-section page-skills light-blue" id="skills">
+          <div class="skills-container container">
+            <h3>Key skills:</h3>
+            <ul class="skills-list list">
+              <li class="skills-item">
+                <p class="skills-text">Beginner in HTML, CSS, JavaScript</p>
+              </li>
+              <li class="skills-item">
+                <p class="skills-text">Good self-learning skills</p>
+              </li>
+              <li class="skills-item">
+                <p class="skills-text">Attentive to details</p>
+              </li>
+              <li class="skills-item">
+                <p class="skills-text">Highly responsible</p>
+              </li>
+              <li class="skills-item">
+                <p class="skills-text">
+                  High level of communicational and organizational skills
+                </p>
+              </li>
+            </ul>
+            <h3>Education in software developing:</h3>
+            <ul class="education-list list">
+              <li class="education-item">
+                <p class="education-text">
+                  09/2022 - present time - online course Web Development
+                  Bootcamp (JavaScript) The Developer Academy, UK
+                </p>
+              </li>
+              <li class="education-item">
+                <p class="education-text">
+                  06/2022 - present time - online courses Full Stack Developer
+                  (HTML, CSS, JavaScript), Ukraine
+                </p>
+              </li>
+            </ul>
+
+            <p class="examples">
+              Examples of my works are by link
+              <a
+                href="https://github.com/hsvietik"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-github"></use>
+                </svg>
+                https://github.com/hsvietik
+              </a>
             </p>
           </div>
         </section>
-        <section class="page-section page-portfolio">
-          <div class="container">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptas placeat quas, sint dolorum impedit ut nihil odio natus
-              suscipit deleniti provident, veritatis, amet commodi animi eveniet
-              at. Laboriosam, laborum. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Eligendi voluptas placeat quas, sint dolorum
-              impedit ut nihil odio natus suscipit deleniti provident,
-              veritatis, amet commodi animi eveniet at. Laboriosam, laborum.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptas placeat quas, sint dolorum impedit ut nihil odio natus
-              suscipit deleniti provident, veritatis, amet commodi animi eveniet
-              at.
-            </p>
+        <section class="page-section page-portfolio" id="portfolio">
+          <div class="portfolio-container container">
+            <h2>Portfolio</h2>
+            <ul class="portfolio-list list">
+              <li class="portfolio-item">
+                <div class="example-description">
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/unicorn-text-game/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./images/four-elements.jpg"
+                      alt="four elements world"
+                      width="200"
+                  /></a>
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/unicorn-text-game/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h3>Four Elements Text Game</h3></a
+                  >
+                  <p class="example-text">
+                    I created this game to practice with JavaScript objects in
+                    Object Oriented Programming JavaScript
+                  </p>
+                  <a
+                    class="repo-link link accent blue"
+                    href="https://github.com/hsvietik/unicorn-text-game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repository</a
+                  >
+                </div>
+                <a
+                  class="link"
+                  href="https://hsvietik.github.io/unicorn-text-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="full-img"
+                    src="./images/unicorn-text-game.jpg"
+                    alt="four elements text game"
+                    width="800"
+                /></a>
+              </li>
+              <li class="portfolio-item">
+                <div class="example-description">
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/unicorn-challenge/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./images/cute-unicorns.jpg"
+                      alt="cute unicorns"
+                      width="200"
+                  /></a>
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/unicorn-challenge/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h3>Unicorn Quiz</h3></a
+                  >
+                  <p class="example-text">
+                    This project is to make a quiz page using JavaScript
+                  </p>
+                  <a
+                    class="repo-link link accent pink"
+                    href="https://github.com/hsvietik/unicorn-challenge"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repository</a
+                  >
+                </div>
+                <a
+                  class="link"
+                  href="https://hsvietik.github.io/unicorn-challenge/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="full-img"
+                    src="./images/unicorn-quiz.jpg"
+                    alt="unicorn quiz"
+                    width="800"
+                /></a>
+              </li>
+              <li class="portfolio-item">
+                <div class="example-description">
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/hobby-website/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./images/palms.jpg"
+                      alt="children palms"
+                      width="200"
+                  /></a>
+                  <a
+                    class="link"
+                    href="https://hsvietik.github.io/hobby-website/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h3>Hobby Website</h3></a
+                  >
+                  <p class="example-text">
+                    The web page created using HTML and CSS, bootstrap for the
+                    site layout and additional elements
+                  </p>
+                  <a
+                    class="repo-link link accent light-blue"
+                    href="https://github.com/hsvietik/hobby-website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repository</a
+                  >
+                </div>
+                <a
+                  class="link"
+                  href="https://hsvietik.github.io/hobby-website/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="full-img"
+                    src="./images/hobby-web.jpg"
+                    alt="hobby web"
+                    width="800"
+                /></a>
+              </li>
+            </ul>
           </div>
         </section>
-        <section class="page-section page-contacts">
-          <div class="container">
-            <div class="contacts">
-          <p class="footer-text">Contact us</p>
-          <ul class="social-list list">
-            <li class="social-item intagram">
-              <a
-                href="https://www.instagram.com/anna.svetik/"
-                class="social-link link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icon" width="15" height="15">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item facebook">
-              <a
-                href="https://www.facebook.com/annet.svetik"
-                class="social-link link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icon" width="15" height="15">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item linkedin">
-              <a
-                href="https://www.linkedin.com/in/hanna-svietik-523371182/"
-                class="social-link link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="social-icon" width="15" height="15">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item email">
-              <a href="mailto:hsvietik@gmail.com" class="social-link link">
-                <svg class="social-icon" width="15" height="15">
-                  <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item phone">
-              <a href="tel:+447877851623" class="social-link link">
-                <svg class="social-icon" width="15" height="15">
-                  <use href="./images/icons.svg#icon-phone-form"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <section class="page-section page-contacts light-grey" id="contacts">
+          <div class="contacts container">
+            <p class="footer-text">Contact me</p>
+            <ul class="social-list list">
+              <li class="social-item pink linkedin">
+                <a
+                  href="https://www.linkedin.com/in/hsvietik/"
+                  class="social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item blue intagram">
+                <a
+                  href="https://www.instagram.com/anna.svetik/"
+                  class="social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item light-blue facebook">
+                <a
+                  href="https://www.facebook.com/annet.svetik"
+                  class="social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul class="contact list">
+              <li>
+                <a
+                  href="mailto:hsvietik@gmail.com"
+                  class="social-link mail link"
+                >
+                  <svg class="contact-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                  </svg>
+                  <p>hsvietik@gmail.com</p>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+447877851623" class="social-link phone link">
+                  <svg class="contact-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-phone-form"></use>
+                  </svg>
+                  <p>+447877851623</p>
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
       </main>
