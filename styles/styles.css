@@ -241,6 +241,7 @@ p {
 .footer {
   background-color: var(--color-dark-grey);
   font-size: 13px;
+  width: 100vw;
 }
 .footer-text {
   text-align: center;
