@@ -304,3 +304,14 @@ p {
 .block {
   display: block;
 }
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cv-subtitle {
+  margin: 10px auto;
+}
+.about {
+  margin: 10px auto;
+}
