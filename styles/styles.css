@@ -118,6 +118,7 @@ p {
 }
 .page-section {
   padding: 30px;
+  width: 100vw;
 }
 .page-hero {
   padding-top: 100px;
