@@ -95,10 +95,13 @@ p {
 
 .header.list {
   display: flex;
-
+  flex-direction: row;
   align-items: center;
   justify-content: right;
   gap: 10px;
+}
+.display {
+  display: none;
 }
 .header-item {
   margin: 0px 0px 0px 20px;
@@ -124,6 +127,7 @@ p {
 }
 .hero-img {
   display: block;
+  max-width: 100vw;
 }
 .description-wrap {
   margin: 0px auto;
@@ -187,7 +191,6 @@ p {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
-  height: 80vh;
 }
 /* .portfolio-list:nth-child(2n) {
   flex-direction: row-reverse;
@@ -247,6 +250,9 @@ p {
     display: flex;
     align-items: center;
   }
+  .display {
+    display: inline-block;
+  }
   .header-item {
     padding: 10px 0;
   }
@@ -271,6 +277,10 @@ p {
   .portfolio-container {
     padding: 70px;
   }
+  .portfolio-item {
+    height: 80vh;
+  }
+
   .example-description {
     width: 35vw;
   }
