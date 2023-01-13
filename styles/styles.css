@@ -293,7 +293,7 @@ p {
   }
   .skills-container {
     padding: 50px;
-    height: 80vh;
+    /* height: 80vh; */
   }
   .skills-list {
     column-count: 2;
