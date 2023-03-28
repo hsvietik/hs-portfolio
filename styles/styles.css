@@ -193,6 +193,7 @@ p {
 .education-text:before {
   background-color: var(--color-pink-accent);
 }
+
 .examples {
   font-size: 20px;
   font-weight: 700;
@@ -297,8 +298,9 @@ p {
   }
   .skills-list {
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 50px;
   }
+
   .portfolio-container {
     padding: 70px;
   }
